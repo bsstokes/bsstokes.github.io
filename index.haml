@@ -1,0 +1,139 @@
+!!!
+%html
+  %head
+    %title Brian Stokes
+
+    -#%meta{:name => 'viewport', :content => 'width=device-width, initial-scale=0.75'}
+    %meta{:name => 'description', :content => 'Brian Stokes'}
+    %meta{:name => 'author', :content => 'Brian Stokes'}
+
+
+    %link{:rel => 'stylesheet', :href => 'assets/bootstrap/css/bootstrap.min.css'}
+    -#%link{:rel => 'stylesheet', :href => 'assets/bootstrap/css/bootstrap-responsive.min.css'}
+    %link{:rel => 'stylesheet', :href => 'assets/stylesheets/bsstokes.css'}
+
+    %link{:rel => 'openid.server', :href => 'https://www.myopenid.com/server'}
+    %link{:rel => 'openid.delegate', :href => 'http://bsstokes.myopenid.com'}
+
+    /Le HTML5 shim, for IE6-8 support of HTML5 elements
+    /[if lt IE 9]
+      %script{:src => 'http://html5shim.googlecode.com/svn/trunk/html5.js'}
+
+    %script{:src => 'http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js', :type => 'text/javascript'}
+    %script{:src => 'assets/javascripts/bootstrap-tooltip.js', :type => 'text/javascript'}
+    %script{:src => 'assets/javascripts/bsstokes.js', :type => 'text/javascript'}
+
+  %body
+    .container
+      %header
+        .row
+          .span7
+            %h1 I&rsquo;m Brian Stokes.
+          .span5
+            %div.contact-me.pull-right
+              .command
+                We should talk! &rarr;
+              %ul.accounts.unstyled
+                %li
+                  %a{:href => 'mailto:brian@bsstokes.com'}
+                    %img{:src => 'assets/images/glyphicons/glyphicons_329_e-mail.png', :rel => 'tooltip', :title => 'email me'}
+                %li
+                  %a{:href => 'http://www.linkedin.com/in/bsstokes'}
+                    %img{:src => 'assets/images/glyphicons/glyphicons_337_linked_in.png', :rel => 'tooltip', :title => 'r&eacute;sum&eacute;'}
+                %li
+                  %a{:href => 'http://twitter.com/bsstokes'}
+                    %img{:src => 'assets/images/glyphicons/glyphicons_322_twitter.png', :rel => 'tooltip', :title => 'tweets'}
+                %li
+                  %a{:href => 'https://github.com/bsstokes'}
+                    %img{:src => 'assets/images/glyphicons/glyphicons_341_github.png', :rel => 'tooltip', :title => 'codes'}
+                %li
+                  %a{:href => 'http://www.flickr.com/photos/bsstokes'}
+                    %img{:src => 'assets/images/glyphicons/glyphicons_325_flickr.png', :rel => 'tooltip', :title => 'photos'}
+
+      .row
+        .span12
+          .content
+
+            .row
+              .span12
+                .about-me
+                  %h2
+                    I work
+                    %em{:class => "tooltip-bottom", :rel => "tooltip", :title => "I love working with great teams!"} with people
+                    to build software
+                    %em{:class => "tooltip-bottom", :rel => "tooltip", :title => "I love building things for real people!"} for people.
+
+            .row
+              .span12
+                .about-me.callout
+                  :markdownsmart
+                    I'm a software engineer in the DFW area. I'm not a *Java engineer*, *Ruby developer* or *.NET
+                    programmer*, though I'm pretty good at all that. I'm not a
+                    *resource* you can *utilize* so you can *leverage* your
+                    *herp derp*. You're not looking for that anyway. You're
+                    looking for an experienced, expert software engineer who's
+                    <a class="tooltip-bottom" rel="tooltip" title="Yep, I stole that from Joel!">smart and gets things done.</a>
+                    *That's me.*
+
+            .row
+              .span6
+                .about-me
+                  :markdownsmart
+                    ### I've *built* all kinds of stuff.
+
+                    * Electrical load analysis for aircraft (C#, ASP.NET, CoffeeScript, Bootstrap)
+                    * Dashboard for tracking financial data (Rails, jQuery, third-party API)
+                    * Service for sending files too big for email (Rails, Prototype)
+                    * Collaborative hosting of architecture documentation (Rails, Rack)
+                    * Desktop analysis tool with virtual globe (Java, Swing, NASA World Wind)
+                    * Simulation framework testing message interoperability (C++, Ruby, XML)
+                    * Networked application to facilitate flight line operation (Java, Swing, XMPP)
+                    * Implementation of efficient compression algorithm (Java, JSON)
+                    * Proof-of-concept iPad application for flight line operation (iOS, GameKit)
+
+              .span6
+                .about-me
+                  :markdownsmart
+                    ### I've *used* all kinds of stuff.
+
+                    * Ruby, Java, C++, Objective-C, C#
+                    * JavaScript, CoffeeScript, HTML, CSS, HAML, SASS
+                    * Rails, ASP.NET, Cocoa, Cocoa Touch, Swing
+                    * PostgreSQL, MySQL, SQL Server, Redis, SQLite
+                    * Git, Subversion
+                    * Linux, OS X, iOS, Windows
+                    * SDKs (Facebook, Twitter, Dropbox, etc.)
+                    * Agile practices, TDD, pair programming, etc.
+                    * Too much to list...
+
+              -#.span3
+              -#  .about-me
+              -#    :markdownsmart
+              -#      ### I have all kinds of *opinions*.
+
+              -#      * Agile practices are the only way to go.
+              -#      * If it's not in source control, it doesn't exist.
+              -#      * TDD is the best way to understand your code.
+              -#      * Simpler is better, except when it's not.
+              -#      * Communication is important, even if it's hard.
+              -#      * Too much to list...
+
+              -#.span3
+              -#  .about-me
+              -#    :markdownsmart
+              -#      ### I've *built* all kinds of stuff.
+
+              -#      * Web, desktop and mobile (iOS) applications
+              -#      * CRMs and project management systems
+              -#      * Virtual globe application
+              -#      * Simulation frameworks
+              -#      * Networked applications
+              -#      * Too much to list...
+
+      %hr
+
+      %footer
+        %p
+          &copy; 2012 Brian Stokes
+
+    %script{:src => 'assets/javascripts/google-analytics.js', :type => 'text/javascript'}

@@ -1,0 +1,58 @@
+body {
+  padding-top: 84px;
+  padding-bottom: 40px; }
+
+header {
+  margin-bottom: 36px; }
+  header h1 {
+    font-size: 60px;
+    letter-spacing: -1px;
+    line-height: 60px; }
+  header a:active, header a:hover, header a:link {
+    text-decoration: none; }
+
+a {
+  cursor: pointer; }
+
+.command {
+  color: #9d261d;
+  display: inline;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 60px;
+  vertical-align: middle; }
+
+ul.accounts {
+  display: inline;
+  margin-bottom: auto;
+  margin-top: auto; }
+  ul.accounts li {
+    display: inline;
+    margin-right: 6px;
+    line-height: 60px; }
+
+.about-me h2, .about-me h3 {
+  padding-bottom: 9px;
+  font-weight: normal; }
+.about-me em {
+  font-weight: bold; }
+.about-me.well p {
+  margin-bottom: 0; }
+
+footer {
+  text-align: center; }
+
+.content .row {
+  margin-bottom: 36px; }
+
+hr {
+  background: inherit;
+  border-top: 1px solid #aaaaaa;
+  border-bottom: none; }
+
+.callout p {
+  font-size: 16px;
+  line-height: 24px; }
+
+h2 a:active, h2 a:hover, h2 a:link {
+  text-decoration: none; }
