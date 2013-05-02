@@ -1,3 +1,6 @@
+$red: #9d261d
+$blue: #08c
+
 body
   padding-top: 40px
   padding-bottom: 40px
@@ -12,28 +15,26 @@ header
   a
     &:active, &:hover, &:link
       text-decoration: none
-a
-  cursor: pointer
 
 .command
-  color: #9d261d
-  display: inline
+  color: $red
   font:
     size: 18px
     weight: bold
-  line-height: 60px
-  vertical-align: middle
 
 ul.accounts
-  display: inline
   margin:
     bottom: auto
     top: auto
   li
-    display: inline
+    display: inline-table
     margin:
       right: 6px
     line-height: 60px
+    vertical-align: middle
+
+    &.account
+      width: 18px
 
 .about-me
   h2, h3
@@ -41,9 +42,6 @@ ul.accounts
     font-weight: normal
   em
     font-weight: bold
-  &.well
-    p
-      margin-bottom: 0
 
 footer
   text-align: center
@@ -67,3 +65,18 @@ h2
   a
     &:active, &:hover, &:link
       text-decoration: none
+
+.bss-icon
+  font-size: 28px
+  line-height: 60px
+
+li.account
+  a
+    &:link  /* unvisited */
+      color: black
+    &:visited
+      color: black
+    &:hover
+      color: $blue
+    &:active /* selected */
+      color: $red

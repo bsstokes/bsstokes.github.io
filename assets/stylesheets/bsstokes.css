@@ -11,33 +11,27 @@ header {
   header a:active, header a:hover, header a:link {
     text-decoration: none; }
 
-a {
-  cursor: pointer; }
-
 .command {
   color: #9d261d;
-  display: inline;
   font-size: 18px;
-  font-weight: bold;
-  line-height: 60px;
-  vertical-align: middle; }
+  font-weight: bold; }
 
 ul.accounts {
-  display: inline;
   margin-bottom: auto;
   margin-top: auto; }
   ul.accounts li {
-    display: inline;
+    display: inline-table;
     margin-right: 6px;
-    line-height: 60px; }
+    line-height: 60px;
+    vertical-align: middle; }
+    ul.accounts li.account {
+      width: 18px; }
 
 .about-me h2, .about-me h3 {
   padding-bottom: 9px;
   font-weight: normal; }
 .about-me em {
   font-weight: bold; }
-.about-me.well p {
-  margin-bottom: 0; }
 
 footer {
   text-align: center; }
@@ -56,3 +50,16 @@ hr {
 
 h2 a:active, h2 a:hover, h2 a:link {
   text-decoration: none; }
+
+.bss-icon {
+  font-size: 28px;
+  line-height: 60px; }
+
+li.account a:link {
+  color: black; }
+li.account a:visited {
+  color: black; }
+li.account a:hover {
+  color: #0088cc; }
+li.account a:active {
+  color: #9d261d; }

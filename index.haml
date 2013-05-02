@@ -9,6 +9,7 @@
 
 
     %link{:rel => 'stylesheet', :href => 'assets/bootstrap/css/bootstrap.min.css'}
+    %link{ rel: 'stylesheet', href: 'assets/fontawesome/css/font-awesome.min.css' }
     -#%link{:rel => 'stylesheet', :href => 'assets/bootstrap/css/bootstrap-responsive.min.css'}
     %link{:rel => 'stylesheet', :href => 'assets/stylesheets/bsstokes.css'}
 
@@ -31,24 +32,24 @@
             %h1 I&rsquo;m Brian Stokes.
           .span5
             %div.contact-me.pull-right
-              .command
-                We should talk! &rarr;
               %ul.accounts.unstyled
-                %li
+                %li.command
+                  We should talk! &rarr;
+                %li.account
                   %a{:href => 'mailto:brian@bsstokes.com'}
-                    %img{:src => 'assets/images/glyphicons/glyphicons_329_e-mail.png', :rel => 'tooltip', :title => 'email me'}
-                %li
+                    %span.bss-icon.icon-envelope-alt
+                %li.account
                   %a{:href => 'http://www.linkedin.com/in/bsstokes'}
-                    %img{:src => 'assets/images/glyphicons/glyphicons_337_linked_in.png', :rel => 'tooltip', :title => 'r&eacute;sum&eacute;'}
-                %li
+                    %span.bss-icon.icon-linkedin
+                %li.account
                   %a{:href => 'http://twitter.com/bsstokes'}
-                    %img{:src => 'assets/images/glyphicons/glyphicons_322_twitter.png', :rel => 'tooltip', :title => 'tweets'}
-                %li
+                    %span.bss-icon.icon-twitter
+                %li.account
                   %a{:href => 'https://github.com/bsstokes'}
-                    %img{:src => 'assets/images/glyphicons/glyphicons_341_github.png', :rel => 'tooltip', :title => 'codes'}
-                %li
+                    %span.bss-icon.icon-github
+                %li.account
                   %a{:href => 'http://www.flickr.com/photos/bsstokes'}
-                    %img{:src => 'assets/images/glyphicons/glyphicons_325_flickr.png', :rel => 'tooltip', :title => 'photos'}
+                    %span.bss-icon.icon-flickr
 
       .row
         .span12
