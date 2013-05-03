@@ -3,9 +3,9 @@ body {
   padding-bottom: 40px; }
 
 header {
-  margin-bottom: 36px; }
+  margin-bottom: 12px; }
   header h1 {
-    font-size: 60px;
+    font-size: 48px;
     letter-spacing: -1px;
     line-height: 60px; }
   header a:active, header a:hover, header a:link {
@@ -37,7 +37,7 @@ footer {
   text-align: center; }
 
 .content .row {
-  margin-bottom: 36px; }
+  margin-bottom: 12px; }
 
 hr {
   background: inherit;
@@ -48,8 +48,13 @@ hr {
   font-size: 16px;
   line-height: 24px; }
 
-h2 a:active, h2 a:hover, h2 a:link {
-  text-decoration: none; }
+h2 {
+  font-size: 24px; }
+  h2 a:active, h2 a:hover, h2 a:link {
+    text-decoration: none; }
+
+h3 {
+  font-size: 18px; }
 
 .bss-icon {
   font-size: 28px;
